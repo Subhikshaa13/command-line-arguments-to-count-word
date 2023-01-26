@@ -6,20 +6,42 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
+Get the file name using command arguments
 
 ### Step 2: 
+Now read the content in the file
  
 ### Step 3: 
+use split()
 
 ### Step 4:  
+Now read the no.of words in file
 
 ### Step 5: 
+Print number of words present in given file
 
 ### Step 6: 
+End of program
 
 ## PROGRAM:
+Developed by: Subhikshaa
+RegisterNumber: 22001030
+import sys
+count = {}
+with open(sys.argv[1], 'r') as f:
+for line in f:
+for word in line.split():
+if word not in count:
+count[word] = 1
+else:
+count[word] += 1
+print(count)
+f.close()
 
 ### OUTPUT:
+![image](https://user-images.githubusercontent.com/118787344/214770596-c9dd2d16-d1a5-454c-804b-643191be2a7f.png)
+
+
 
 
 
