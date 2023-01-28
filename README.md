@@ -24,6 +24,7 @@ Print number of words present in given file
 End of program
 
 ## PROGRAM:
+```
 Developed by: Subhikshaa
 RegisterNumber: 22001030
 import sys
@@ -37,7 +38,7 @@ else:
 count[word] += 1
 print(count)
 f.close()
-
+```
 ### OUTPUT:
 ![image](https://user-images.githubusercontent.com/118787344/214770596-c9dd2d16-d1a5-454c-804b-643191be2a7f.png)
 
